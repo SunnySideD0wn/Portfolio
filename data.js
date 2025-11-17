@@ -13,39 +13,55 @@ const portfolioData = {
     email: "rakee@example.com",
   },
 
-  // Skills Data
+  // Skills Data - Using colored icons from CDN
   skills: [
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
       name: "JavaScript" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/node-dot-js.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", 
       name: "Node.js" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", 
       name: "Python" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
+      name: "React" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", 
       name: "PHP" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/java.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", 
       name: "Java" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", 
+      name: "C++" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg", 
       name: "Azure" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/azuredevops.svg", 
-      name: "Azure DevOps" 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", 
+      name: "Computer Vision AI" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg", 
-      name: "Computer Vision AI" 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", 
+      name: "MySQL" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
+      name: "HTML5" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", 
+      name: "CSS3" 
     },
   ],
 
@@ -77,7 +93,7 @@ const portfolioData = {
   // Projects Data
   projects: [
     {
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
       title: "AI Chat Assistant",
       description:
         "An intelligent conversational AI powered by NLP, designed for customer support automation and natural dialogue handling.",
@@ -87,7 +103,7 @@ const portfolioData = {
       demoUrl: "#",
     },
     {
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       title: "Data Analytics Dashboard",
       description:
         "Real-time analytics dashboard with interactive visualizations, built with React and D3.js for business intelligence.",
@@ -97,7 +113,7 @@ const portfolioData = {
       demoUrl: "#",
     },
     {
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       title: "Browser Game Development",
       description:
         "Interactive browser-based game with smooth animations, responsive controls, and engaging gameplay mechanics.",
@@ -111,22 +127,22 @@ const portfolioData = {
   // Social Links Data
   socialLinks: [
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", 
       title: "GitHub", 
       url: "#" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg", 
       title: "LinkedIn", 
       url: "#" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg", 
       title: "Twitter", 
       url: "#" 
     },
     { 
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg", 
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", 
       title: "Email", 
       url: "mailto:rakee@example.com" 
     },
