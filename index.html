@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakee Villas | CS Student & Developer</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Custom Styles - MUST be in same folder -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ==================== PRELOADER ==================== -->
+  <div class="preloader">
+    <div class="preloader-logo">RV</div>
+  </div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Rakee Villas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#advocacy">Advocacy</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== SECTION NAVIGATION DOTS ==================== -->
+  <div class="section-dots" data-sections="home,education,experience,skills,certificates,advocacy,projects"></div>
+
+  <!-- ==================== BACK TO TOP BUTTON ==================== -->
+  <div class="back-to-top" id="backToTop" aria-label="Back to top">↑</div>
+
+  <!-- ==================== HOME SECTION ==================== -->
+  <section id="home" class="home-section" data-section="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="profile-box">💻</div>
+        </div>
+        <div class="col-md-6 home-content">
+          <h1>Hi, I'm Rakee Villas 👋</h1>
+          <p class="lead">Computer Science student at FEU-Tech | Passionate about AI & Web Development | Building elegant solutions through code</p>
+          <div class="button-group">
+            <button class="btn-glow" data-target="#projects">View Portfolio</button>
+            <button class="btn-glow" data-target="#contact">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION SECTION ==================== -->
+  <section id="education" data-section="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="education-card">
+            <h4>🎓 BS Computer Science</h4>
+            <p class="education-year">Far Eastern University - Tech (FEU-Tech) | 2022 - Present</p>
+            <p>Specializing in software development and artificial intelligence with a focus on modern web technologies and machine learning applications.</p>
+          </div>
+          <div class="education-card">
+            <h4>📚 High School Diploma</h4>
+            <p class="education-year">Secondary Education | 2018 - 2022</p>
+            <p>Developed strong foundational knowledge in mathematics, science, and technology. Active participant in academic and tech-related competitions.</p>
+          </div>
+          <div class="education-card">
+            <h4>🏆 Relevant Coursework</h4>
+            <p class="education-year">Current & Completed</p>
+            <p>Data Structures, Web Development, Database Management, Machine Learning, Software Engineering, Cloud Computing, and Advanced Algorithms.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section id="experience" data-section="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="experience-item">
+            <div class="experience-title">🛠 Building My Portfolio</div>
+            <div class="experience-meta">Personal Projects | 2024 - Present</div>
+            <p>Currently working on various personal projects to build my skills and portfolio. Focusing on web development, AI applications, and creating solutions that solve real-world problems. Open to internships and collaboration opportunities.</p>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">🎓 Academic Projects</div>
+            <div class="experience-meta">FEU-Tech | 2022 - Present</div>
+            <p>Developing hands-on experience through coursework projects including database management systems, web applications, and machine learning models. Collaborating with peers on team projects and participating in coding competitions.</p>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">💡 Self-Learning & Development</div>
+            <div class="experience-meta">Continuous Learning | Ongoing</div>
+            <p>Actively learning new technologies through online courses, tutorials, and documentation. Building personal projects to apply theoretical knowledge. Exploring modern frameworks, cloud services, and best practices in software development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section id="skills" data-section="skills">
+    <div class="container">
+      <h2 class="section-title">Tech Stack & Skills</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATES SECTION ==================== -->
+  <section id="certificates" data-section="certificates">
+    <div class="container">
+      <h2 class="section-title">Certifications & Achievements</h2>
+      <div class="row" id="certificatesContainer"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ADVOCACY SECTION ==================== -->
+  <section id="advocacy" class="advocacy-section" data-section="advocacy">
+    <div class="container">
+      <h2 class="section-title">My Advocacy</h2>
+      <div class="advocacy-content">
+        <div class="advocacy-icon">🌍</div>
+        <h3>Empowering Through Technology</h3>
+        <p>I'm passionate about making technology accessible to everyone. I believe in using my skills to create solutions that solve real-world problems and positively impact communities. Through open-source contributions, mentoring, and tech education initiatives, I aim to inspire the next generation of developers.</p>
+        <p style="margin-top: 1.5rem;">Whether it's building inclusive web applications, promoting digital literacy, or advocating for ethical AI practices, I'm committed to creating a more connected and equitable tech ecosystem.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section id="projects" data-section="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" data-section="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch 📬</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-glow w-100">Send Message ✨</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="social-icons" id="socialLinks"></div>
+    <p class="footer-text">© 2025 Rakee Villas | CS Student at FEU-Tech</p>
+    <p class="footer-text">Crafted with ❤️ and a lot of ☕</p>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Your JavaScript files - MUST be in same folder and in this order -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
