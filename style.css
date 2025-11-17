@@ -480,6 +480,7 @@ section {
 
 .advocacy-content {
   max-width: 800px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -516,7 +517,7 @@ section {
   background: var(--card-bg);
   border: 1px solid var(--border-glow);
   border-radius: 15px;
-  overflow: hidden;
+  overflow: hidden;                                       
   transition: var(--transition-smooth);
   animation: fadeInUp 0.6s ease;
 }
