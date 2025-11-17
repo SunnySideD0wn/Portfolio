@@ -66,9 +66,12 @@ class PortfolioApp {
         (cert, index) => `
         <div class="col-md-4 mb-4">
           <div class="certificate-card" style="animation-delay: ${index * 0.1}s">
-            <div class="cert-icon">${cert.icon}</div>
+            ${cert.image 
+              ? `<img src="${cert.image}" alt="${cert.title}" class="cert-image">`
+              : `<div class="cert-icon">${cert.icon || "🏅"}</div>`
+            }
             <h5>${cert.title}</h5>
-            <p>${cert.issuer} | ${cert.year}</p>
+            <p>${cert.issuer} | ${cert.date || cert.year}</p>
             <p style="font-size: 0.8rem; margin-top: 0.5rem;">${cert.description}</p>
           </div>
         </div>

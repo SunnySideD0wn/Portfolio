@@ -462,6 +462,16 @@ section {
   margin-bottom: 1rem;
 }
 
+.cert-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
 .certificate-card h5 {
   color: var(--accent-silver);
   font-weight: 600;
