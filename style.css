@@ -427,6 +427,17 @@ section {
 .skill-icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
 }
 
 .skill-name {
@@ -547,6 +558,17 @@ section {
   padding: 1.5rem;
   border-bottom: 1px solid var(--border-glow);
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
 }
 
 .project-body {
@@ -661,11 +683,24 @@ footer {
   text-decoration: none;
 }
 
+.social-icon-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+
 .social-icon:hover {
   background: var(--accent-silver);
   color: var(--bg-dark);
   transform: translateY(-3px);
   box-shadow: 0 0 20px rgba(192, 192, 192, 0.5);
+}
+
+.social-icon:hover .social-icon-img {
+  filter: brightness(0);
+  opacity: 1;
 }
 
 .footer-text {

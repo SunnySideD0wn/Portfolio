@@ -15,14 +15,38 @@ const portfolioData = {
 
   // Skills Data
   skills: [
-    { icon: "📱", name: "JavaScript" },
-    { icon: "⚛️", name: "React" },
-    { icon: "🐍", name: "Python" },
-    { icon: "🎨", name: "UI/UX Design" },
-    { icon: "💾", name: "SQL & NoSQL" },
-    { icon: "☁️", name: "Cloud Services" },
-    { icon: "🤖", name: "Machine Learning" },
-    { icon: "🔧", name: "DevOps Tools" },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg", 
+      name: "JavaScript" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/node-dot-js.svg", 
+      name: "Node.js" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg", 
+      name: "Python" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg", 
+      name: "PHP" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/java.svg", 
+      name: "Java" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftazure.svg", 
+      name: "Azure" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/azuredevops.svg", 
+      name: "Azure DevOps" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg", 
+      name: "Computer Vision AI" 
+    },
   ],
 
   // Certificates Data
@@ -53,7 +77,7 @@ const portfolioData = {
   // Projects Data
   projects: [
     {
-      icon: "🤖",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tensorflow.svg",
       title: "AI Chat Assistant",
       description:
         "An intelligent conversational AI powered by NLP, designed for customer support automation and natural dialogue handling.",
@@ -63,7 +87,7 @@ const portfolioData = {
       demoUrl: "#",
     },
     {
-      icon: "📊",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg",
       title: "Data Analytics Dashboard",
       description:
         "Real-time analytics dashboard with interactive visualizations, built with React and D3.js for business intelligence.",
@@ -73,7 +97,7 @@ const portfolioData = {
       demoUrl: "#",
     },
     {
-      icon: "🎮",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg",
       title: "Browser Game Development",
       description:
         "Interactive browser-based game with smooth animations, responsive controls, and engaging gameplay mechanics.",
@@ -86,10 +110,26 @@ const portfolioData = {
 
   // Social Links Data
   socialLinks: [
-    { icon: "🐙", title: "GitHub", url: "#" },
-    { icon: "💼", title: "LinkedIn", url: "#" },
-    { icon: "𝕏", title: "Twitter", url: "#" },
-    { icon: "✉️", title: "Email", url: "mailto:rakee@example.com" },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg", 
+      title: "GitHub", 
+      url: "#" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg", 
+      title: "LinkedIn", 
+      url: "#" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg", 
+      title: "Twitter", 
+      url: "#" 
+    },
+    { 
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg", 
+      title: "Email", 
+      url: "mailto:rakee@example.com" 
+    },
   ],
 };
 

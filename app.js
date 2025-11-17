@@ -46,7 +46,12 @@ class PortfolioApp {
       .map(
         (skill, index) => `
         <div class="skill-badge" style="animation-delay: ${index * 0.05}s">
-          <div class="skill-icon">${skill.icon}</div>
+          <div class="skill-icon">
+            ${skill.icon && skill.icon.startsWith('http') 
+              ? `<img src="${skill.icon}" alt="${skill.name}" class="skill-icon-img">`
+              : skill.icon || "📱"
+            }
+          </div>
           <div class="skill-name">${skill.name}</div>
         </div>
       `
@@ -91,7 +96,12 @@ class PortfolioApp {
       .map(
         (project, index) => `
         <div class="project-card" style="animation-delay: ${index * 0.1}s">
-          <div class="project-header">${project.icon}</div>
+          <div class="project-header">
+            ${project.icon && project.icon.startsWith('http') 
+              ? `<img src="${project.icon}" alt="${project.title}" class="project-icon-img">`
+              : project.icon || "📱"
+            }
+          </div>
           <div class="project-body">
             <h5>${project.title}</h5>
             <p>${project.description}</p>
@@ -124,7 +134,10 @@ class PortfolioApp {
         <a href="${social.url}" class="social-icon" title="${social.title}" ${
           social.url.startsWith("http") ? 'target="_blank" rel="noopener noreferrer"' : ""
         }>
-          ${social.icon}
+          ${social.icon && social.icon.startsWith('http') 
+            ? `<img src="${social.icon}" alt="${social.title}" class="social-icon-img">`
+            : social.icon || "🔗"
+          }
         </a>
       `
       )
